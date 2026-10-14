@@ -160,7 +160,7 @@ H = prof[prof.cluster != "ALL"][[f"{c}_idx" for c in idxcols]].values - 100
 fig, a = plt.subplots(figsize=(9, 3.6)); im = a.imshow(H, cmap="RdBu_r", vmin=-100, vmax=100, aspect="auto")
 a.set_xticks(range(len(idxcols))); a.set_xticklabels(idxcols, rotation=30, ha="right"); a.set_yticks(range(K)); a.set_yticklabels([f"Cluster {c}" for c in range(K)])
 for i in range(K):
-    for j in range(len(idxcols)): a.text(j, i, f"{H[i,j]:+.0f}%", ha="center", va="center", fontsize=8)
+    for j in range(len(idxcols)): a.text(j, i, f"{H[i,j]:+.0f}%", ha="center", va="center", fontsize=8, color="white" if abs(H[i,j]) >= 70 else "black")
 a.set_title("Cluster mean vs overall mean (% difference); features 1-4 drove the clustering"); fig.colorbar(im); fig.tight_layout()
 fig.savefig(f"{OUT}/figures/11_profile_heatmap.png", dpi=130); plt.close(fig)
 
