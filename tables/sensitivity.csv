@@ -1,0 +1,6 @@
+variant,silhouette,ARI_vs_final,sizes
+"Final (4 features, PCA-3)",0.27,1.0,24% / 23% / 26% / 27%
+"Drop items_in_cart (3 features, standardised)",0.281,0.42,22% / 26% / 24% / 28%
+log1p-transform then standardise (4 features),0.3,0.274,17% / 30% / 11% / 41%
+Robust scaling (median/IQR),0.215,0.744,27% / 25% / 24% / 25%
+Raw unscaled features (demonstrates scale distortion),0.392,0.288,25% / 24% / 25% / 26%

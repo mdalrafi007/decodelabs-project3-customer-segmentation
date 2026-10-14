@@ -1,0 +1,122 @@
+{
+ "scaling_check": {
+  "avg_quantity": {
+   "mean": 0.0,
+   "std": 1.000421
+  },
+  "avg_unit_price": {
+   "mean": -0.0,
+   "std": 1.000421
+  },
+  "avg_items_in_cart": {
+   "mean": 0.0,
+   "std": 1.000421
+  },
+  "recency_days": {
+   "mean": -0.0,
+   "std": 1.000421
+  }
+ },
+ "loadings": {
+  "PC1": {
+   "avg_quantity": 0.702,
+   "avg_unit_price": 0.018,
+   "avg_items_in_cart": 0.704,
+   "recency_days": 0.105
+  },
+  "PC2": {
+   "avg_quantity": -0.056,
+   "avg_unit_price": 0.794,
+   "avg_items_in_cart": -0.054,
+   "recency_days": 0.603
+  },
+  "PC3": {
+   "avg_quantity": -0.07,
+   "avg_unit_price": -0.607,
+   "avg_items_in_cart": -0.031,
+   "recency_days": 0.791
+  },
+  "PC4": {
+   "avg_quantity": -0.706,
+   "avg_unit_price": 0.016,
+   "avg_items_in_cart": 0.708,
+   "recency_days": -0.023
+  }
+ },
+ "evr_N": [
+  0.4138,
+  0.2524,
+  0.2459,
+  0.0879
+ ],
+ "K": 4,
+ "converged_iter": 11,
+ "inertia": 1940.517627676837,
+ "sil_pca3": 0.26983512477338506,
+ "sil_4D": 0.23340384768435157,
+ "sizes": [
+  290,
+  305,
+  317,
+  277
+ ],
+ "sil_by_cluster": {
+  "0": 0.273,
+  "1": 0.273,
+  "2": 0.259,
+  "3": 0.276
+ },
+ "neg_sil_pct": 0.3,
+ "seed_ari_mean": 0.7221894321292708,
+ "seed_ari_min": 0.24536209242839394,
+ "boot_ari_mean": 0.7340478179135624,
+ "boot_ari_sd": 0.19708025935756382,
+ "ari_vs_4D": 0.9771213233746807,
+ "chi2_p": {
+  "Product": 0.014304479758305665,
+  "PaymentMethod": 0.052401126803295464,
+  "OrderStatus": 0.9574219283494066,
+  "CouponCode": 0.9988797535897249,
+  "ReferralSource": 0.7543345357014877
+ },
+ "kruskal_p": {
+  "avg_quantity": 1.5449317823244277e-156,
+  "avg_unit_price": 8.147826863758845e-110,
+  "avg_items_in_cart": 2.9292158678349486e-144,
+  "recency_days": 1.5455538942045466e-114,
+  "total_spend": 1.6284879224125545e-129,
+  "cart_to_qty_ratio": 0.008914369559353284,
+  "share_coupon_used": 0.9086748542992598,
+  "share_realised": 0.4752197927603613,
+  "share_cancel_return": 0.7177514226462447
+ },
+ "eta_sq": {
+  "avg_quantity": 0.6089938095898152,
+  "avg_unit_price": 0.428227332947401,
+  "avg_items_in_cart": 0.5326737684033902,
+  "recency_days": 0.44782449350153025
+ },
+ "centroid_pca": [
+  [
+   1.165,
+   0.81,
+   -0.383
+  ],
+  [
+   -1.157,
+   -0.294,
+   -0.827
+  ],
+  [
+   -0.885,
+   0.373,
+   0.875
+  ],
+  [
+   1.067,
+   -0.952,
+   0.311
+  ]
+ ],
+ "F_K7_vs_product_ARI": 0.9901733156988927
+}
